@@ -27,7 +27,7 @@ function counterReducer(state = initialState, action) {
       return{
         ...state,
         count: parseInt(state.numberInputted),
-        numberInputted: 0,
+        //numberInputted: 0,
         timesClicked: 0
       };
     default:
